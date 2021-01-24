@@ -19,15 +19,3 @@ Feature: Login in Urbanio
       | username        | password |
       | admin@gmail.com | mypass   |
 
-  #Checked
-  Scenario Outline: I insert invalid credentials to login in Urbanio
-    Given I open Urbanio webpage in a new webBrowser
-    And I login with the credentials username <username> and password <password> in the login page
-    Then I see an error warning
-
-    Examples:
-      | username | password |
-      | ergwerb  | wefwev   |
-      | admin    | xxxx     |
-      | user     | qevq!    |
-
