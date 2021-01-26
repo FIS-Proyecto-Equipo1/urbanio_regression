@@ -55,7 +55,7 @@ public class BillsPage {
         return billStatusDropdown;
     }
 
-    @FindBy(xpath = "//button[contains(@class,'btn btn-primary')]")
+    @FindBy(xpath = "//button[contains(@class,'btn btn-success')]")
     private WebElement saveButton;
 
     public WebElement getSaveButton() {

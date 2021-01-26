@@ -48,6 +48,13 @@ public class SidebarPage {
         return bookingAdminTab;
     }
 
+    @FindBy(xpath = "//a[contains(@href,'/user/reservas')]")
+    private WebElement bookingUsersTab;
+
+    public WebElement getBookingUsersTab() {
+        return bookingUsersTab;
+    }
+
     @FindBy(xpath = "//a[contains(@href,'/admin/bills')]")
     private WebElement billsAdminTab;
 

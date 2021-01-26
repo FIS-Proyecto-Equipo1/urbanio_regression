@@ -53,8 +53,8 @@ public class BillsActions extends BaseDriver {
         Assert.assertTrue(found);
     }
 
-    @And("I click on save button in vehicles page")
-    public void iClickOnSaveButtonInVehiclesPage() throws InterruptedException {
+    @And("I click on save button in bills page")
+    public void iClickOnSaveButtonInBillsPage() throws InterruptedException {
         BillsPage billsPage = new BillsPage(driver);
         billsPage.getSaveButton().click();
         Thread.sleep(3000);

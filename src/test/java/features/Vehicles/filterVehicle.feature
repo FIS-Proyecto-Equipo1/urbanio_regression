@@ -11,4 +11,4 @@ Feature: I filter vehicles as a current user
 
     Examples:
       | username       | password | status     | license | type  |
-      | user@gmail.com | mypass   | DISPONIBLE | AB      | Coche |
+      | user@gmail.com | mypass   | DISPONIBLE | B      | Coche |
