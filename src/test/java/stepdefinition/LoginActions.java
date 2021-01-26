@@ -16,8 +16,8 @@ public class LoginActions extends BaseDriver {
     @Given("I open Urbanio webpage in a new webBrowser")
     public void iOpenUrbanioWebpageInANewWebBrowser() throws IOException {
         driver = newbornWebDriver();
-        //driver.get("https://frontend-urbanio.herokuapp.com/auth/login");
-        driver.get(" http://localhost:3004/auth/login");
+        driver.get("https://frontend-urbanio.herokuapp.com/auth/login");
+        //driver.get(" http://localhost:3004/auth/login");
 
 
     }
